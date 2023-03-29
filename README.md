@@ -10,8 +10,8 @@
 
 
 ```mermaid
-flowchat TD;
+   flowchart TD;
     A[hypothesis]  --> B{experiment};
-    B --- yes ---> C[ok];
-    B --no --> D[not ok];
+    B -- yes --> C[ok];
+    B -- no --> D[not ok];
 ```
